@@ -39,7 +39,7 @@ def connection(dbname):
 # ======================= create =======================
 
 def create():
-    conn_otomasi, cursor_otomasi = connection('pagila_otomasi')
+    conn_otomasi, cursor_otomasi = connection('pagila_otomasi2')
     
     # Prepare schema
     create_staging(conn_otomasi, cursor_otomasi)
